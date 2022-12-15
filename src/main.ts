@@ -73,7 +73,7 @@ const render = async () => {
 		if (graphElement) {
 			graphElement.innerHTML += `<div class="graph-line" style="background-color: ${
 				d.color
-			}; width: ${d.percent.toFixed(0)}%; height: 20px;"></div>`;
+			}; width: ${d.percent.toFixed(1)}%; height: 16px;"></div>`;
 		}
 
 		if (languageElement) {
