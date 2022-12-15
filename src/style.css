@@ -59,7 +59,7 @@ p {
 .language-comp {
 	display: flex;
 	align-items: center;
-	gap: 4px;
+	gap: 8px;
 }
 
 .circle {
@@ -68,4 +68,11 @@ p {
 	border-radius: 100%;
 }
 
-.
+.language-comp > p {
+	font-weight: 700;
+}
+
+.language-comp > p > span {
+	font-weight: 400;
+	color: #bbbbbb;
+}

@@ -79,7 +79,7 @@ const render = async () => {
 		if (languageElement) {
 			languageElement.innerHTML += `<div class="language-comp">
 			<div class="circle" style="background-color: ${d.color};"></div>
-			<p>${d.language}: ${d.percent.toFixed(1)}%</p>
+			<p>${d.language}: <span>${d.percent.toFixed(1)}%</span></p>
 			</div>`;
 		}
 	});
