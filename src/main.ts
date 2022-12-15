@@ -52,7 +52,7 @@ const languageGraphData = async () => {
 
 	let otherPercent: number = 0;
 	const graphData = data.map((d, i) => {
-		if (d.percent < 5) {
+		if (d.percent < 0.4) {
 			otherPercent += d.percent;
 		} else {
 			return d;
